@@ -25,6 +25,7 @@ function App() {
 
   return (
     <div className="container">
+      <p>Welcome</p>
      <h1>Todo List</h1>
      <div>
       <input type="text" placeholder="enter a todo" value={todoValue} onChange={(event)=>setTodoValue(event.target.value)}></input>
